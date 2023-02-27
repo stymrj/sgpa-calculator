@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #00b09b, #96c93d);
+  background-image: no-repeat center center/cover;
+}
+
+.container {
+  width: 50%;
+  background-color: white;
+  height: 40%;
+  border-radius: 10px;
+  padding: 30px 40px;
+  text-align: center;
+
+}
+
+.container .heading {
+  font-family: 'Ubuntu';
+  padding: 5px;
+  margin-bottom: 30px;
+  text-shadow: 0 0 1px;
+  transition: .5s;
+  color: yellowgreen;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 25px;
+}
+
+.foot {
+  position: fixed;
+  bottom: 0%;
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+#love {
+  color: red;
+  font-weight: bold;
+}
+
+.foot>p {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 140px;
+  overflow: auto;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .container {
+    width: 85%;
+    background-color: white;
+    height: 310px;
+    border-radius: 10px;
+    padding: 40px 40px;
+    text-align: center;
+
+  }
+
+}
+
+@media only screen and (min-width:480px) and (max-width:595px) {
+  .container {
+    width: 75%;
+    background-color: white;
+    height: 320px;
+    border-radius: 10px;
+    padding: 40px 40px;
+    text-align: center;
+
+  }
+
+}
+
+@media only screen and (min-width:595px) and (max-width:690px) {
+  .container {
+    width: 70%;
+    background-color: white;
+    height: 320px;
+    border-radius: 10px;
+    padding: 40px 40px;
+    text-align: center;
+
+  }
+
+}
+
+@media only screen and (min-width:690px) and (max-width:800px) {
+  .container {
+    width: 65%;
+    background-color: white;
+    height: 320px;
+    border-radius: 10px;
+    padding: 40px 40px;
+    text-align: center;
+
+  }
+
+}
+
+@media only screen and (min-width:800px) and (max-width:1024px) {
+  .container {
+    width: 50%;
+    background-color: white;
+    height: 320px;
+    border-radius: 10px;
+    padding: 40px 40px;
+    text-align: center;
+
+  }
+
+}
+
+@media only screen and (min-width:1024px) and (max-width:1224px) {
+  .container {
+    width: 40%;
+    background-color: white;
+    height: 320px;
+    border-radius: 10px;
+    padding: 40px 40px;
+    text-align: center;
+
+  }
+
+}
+
+
+@media only screen and (min-width:1224px) and (max-width:2000px) {
+  .container {
+    width: 40%;
+    background-color: white;
+    height: 320px;
+    border-radius: 10px;
+    padding: 40px 40px;
+    text-align: center;
+
+  }
+
+}

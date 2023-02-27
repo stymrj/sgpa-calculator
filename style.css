@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(test.jpg) center center/ cover;
+    color: white;
+}
+
+.container{
+    width: 50%;
+    height: 80%;
+}
+
+.container .main-content .control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 0 0 1px;
+}
+
+.container .heading{
+    width: 80% ;
+    margin: 30px auto;
+    text-align: center;
+    padding: 5px 10px;
+    text-shadow: 0 0 2px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(231, 229, 237);
+}
+
+.container .main-content .control > select{
+    height: 30px;
+    width: 115px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0 0 5px black;
+}
+
+.container .button-area{
+    padding: 20px;
+    text-align: center;
+}
+
+.container .button-area >button{
+    font-size: 1.2rem;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    box-shadow: 0 0 5px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.container .button-area >button:hover{
+    background-color: white;
+    color: black;
+}
+
+.container .final{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 0 0 2px;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .container {
+    width: 85%;
+    height: 80%;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:595px) {
+    .container {
+    width: 75%;
+    height: 80%;
+    }
+}
+
+@media only screen and (min-width:595px) and (max-width:690px) {
+    .container {
+    width: 65%;
+    height: 80%;
+    }
+}
+
+@media only screen and (min-width:690px) and (max-width:800px) {
+    .container {
+    width: 55%;
+    height: 80%;
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:1024px) {
+    .container {
+    width: 45%;
+    height: 80%;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1224px) {
+    .container {
+    width: 40%;
+    height: 80%;
+    }
+}
+
+@media only screen and (min-width:1224px) and (max-width:2000px) {
+    .container {
+    width: 30%;
+    height: 80%;
+    }
+}

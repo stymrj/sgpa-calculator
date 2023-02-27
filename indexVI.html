@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SGPA Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>Grade Calculator (VI) Btech CSE</h2>
+        </div>
+        <div class="main-content">
+            <div class="control">
+                <label for="sware">Software Engineering</label>
+                <select id="sware" oninput="grading100(this.value)">
+                    <option disabled selected hidden>Select grade</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+            </div>
+            <div class="control">
+                <label for="toc">Theory of Computaion</label>
+                <select id="toc" oninput="grading200(this.value)">
+                    <option disabled selected hidden>Select grade</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+            </div>
+            <div class="control">
+                <label for="tt">Technical Training</label>
+                <select id="tt" oninput="grading300(this.value)">
+                    <option disabled selected hidden>Select grade</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+            </div>
+            <div class="control">
+                <label for="esu">Entreprenurship & start-up</label>
+                <select id="esu" oninput="grading400(this.value)">
+                    <option disabled selected hidden>Select grade</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+            </div>
+            <div class="control">
+                <label for="os">Optional Subject</label>
+                <select id="os" oninput="grading500(this.value)">
+                    <option disabled selected hidden>Select grade</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+            </div>
+            <div class="control">
+                <label for="sp1">Specialisation Sub-1 </label>
+                <select id="sp1" oninput="grading600(this.value)">
+                    <option disabled selected hidden>Select grade</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+            </div>
+            <div class="control">
+                <label for="sp2">Specialisation Sub-2 </label>
+                <select id="sp2" oninput="grading700(this.value)">
+                    <option disabled selected hidden>Select grade</option>
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+            </div>
+            
+           
+        <div class="button-area">
+            <button id="btn" onclick="calculate()">Calculate</button>
+        </div>
+
+        <div class="final">
+            <h2 id="demo"></h2>
+        </div>
+    </div>
+    
+    <script src="app1.js"></script>
+</body>
+</html>
