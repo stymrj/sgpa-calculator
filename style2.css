@@ -39,6 +39,11 @@ body {
   margin-bottom: 25px;
 }
 
+.note {
+  color: #00b09b;
+  margin-top: 20px;
+}
+
 .foot {
   position: fixed;
   bottom: 0%;
